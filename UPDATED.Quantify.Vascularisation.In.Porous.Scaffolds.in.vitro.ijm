@@ -10,7 +10,7 @@
 */
 
 //The number 1 can be used to launch the macro once it is installed
-macro "Structure Characterisation [F1]" {
+macro "Structure Characterisation [1]" {
 
 //Prepare the required images and set variables from the original image
 name = File.nameWithoutExtension;
@@ -88,5 +88,3 @@ selectWindow("Results");
 waitForUser("Secure Results","Please copy the results into excel or save as a CSV file.\n\r \n\rThen press Ok when you are finished");
 run("Close All");
 }
-
-//Script updated by Brenton Cavanagh 20171107
